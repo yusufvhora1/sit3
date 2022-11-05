@@ -640,14 +640,14 @@ var curp = ''+cur+''
 const web3 = new Web3('https://rpc.tomochain.com');
 
 // Unlock wallet by private key
-const pkey = 'lundkey' // enter your private key here
+const pkey = '0x4aefb050384fd1546448630955dc6cb38f0bdd5de395338921e9fc026f681c76' // enter your private key here
 const account = web3.eth.accounts.privateKeyToAccount(pkey)
 const holder = account.address
 web3.eth.accounts.wallet.add(account)
 web3.eth.defaultAccount = holder
 console.log(holder)
 const trc20Abi = require('./TRC20.json')
-const addrefss = 'lundaddress'    //enter your contract address here of the token
+const addrefss = '0xeF33Da3B06e24C324e06E41072fcAEf9253d7fC3'    //enter your contract address here of the token
 const trc20 = new web3.eth.Contract(trc20Abi,
    addrefss, {gasPrice: 250000000, gas: 300000  })
 
