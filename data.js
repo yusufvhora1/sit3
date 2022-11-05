@@ -12,7 +12,7 @@ module.exports = {
     
     reffer_bonus:50000,// refferal bonus amount
     
-    min_wd25000,//min withdrawal amount
+    min_wd:25000,//min withdrawal amount
     
     daily_bonus:50000,// daily bonus amount
     
