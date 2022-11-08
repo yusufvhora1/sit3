@@ -714,7 +714,7 @@ function rndInt(min, max){
   
   function mustJoin(ctx){
  
-            msg ='*💰 Join This Channels To Use This Bot*\n\n1⃣ @ShibaTokenAnnoucement\n1⃣ @ShibaToken_chat\n\n*▶️ More bots by* [TrustGram™](https://t.me/TrustGram)', { parse_mode: 'markdown', disable_web_page_preview : 'true' , reply_markup: { inline_keyboard:[[{ text: "✅ JOINED", callback_data: "checkoo" }]]} }
+            msg ='*💰 Join This Channels To Use This Bot*\n\n1⃣ @ShibaTokenAnnoucement\n\n*▶️ More bots by* [TrustGram™](https://t.me/TrustGram)', { parse_mode: 'markdown', disable_web_page_preview : 'true' , reply_markup: { inline_keyboard:[[{ text: "✅ JOINED", callback_data: "checkoo" }]]} }
 
 
   ctx.replyWithPhoto({ url: 'https://telegra.ph/file/3397e10ec362c520f160b.jpg' }, { caption: ''+msg+''
